@@ -1,98 +1,92 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="utf-8" name="referrer" content="never" />
-		<title>豆瓣TOP250可视化</title>
-		<link rel="shortcut  icon" href="img/icon.png" type="image/x-icon" />
-		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-		<link rel="stylesheet" href="css/index.css">
-		<script src="js/jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/echarts.min.js"></script>
-		<script src="js/echarts.js"></script>
+<head>
+	<meta charset="utf-8" name="referrer" content="never" />
+	<title>豆瓣TOP250可视化</title>
+	<link rel="shortcut  icon" href="img/icon.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/echarts.min.js"></script>
+	<script src="js/echarts.js"></script>
+	<script src="js/TOP250.js"></script>
+</head>
 
-		<style>
-
-		</style>
-	</head>
-
-	<body style="background-color: whitesmoke;">
-		<div id="header">
+<body style="background-color: whitesmoke;">
+	<div id="header">
+		<div>
 			<div>
-				<div>
-					<img style="width: 30px;height: 30px;" src="img/icon.png" alt="">
-				</div>
-				<p style="margin-left: 10px;">豆瓣TOP250可视化</p>
+				<img style="width: 30px;height: 30px;" src="img/icon.png" alt="">
 			</div>
-
-			<div>
-				<a href="https://echarts.apache.org/zh/index.html" target="_blank">
-					<p>ECharts官网</p>
-				</a>
-			</div>
+			<p style="margin-left: 10px;">豆瓣TOP250可视化</p>
 		</div>
 
-		<div id="main">
-			<ul id="echarts1" style="background-color: white;">
-				<li>
-					<b>&nbsp;</b>
-					<p>豆瓣TOP250</p>
-				</li>
-				<li>
-					<b>&nbsp;</b>
-					<p>柱形图</p>
-				</li>
-				<li>
-					<b>&nbsp;</b>
-					<p>条形图</p>
-				</li>
-				<li>
-					<b>&nbsp;</b>
-					<p>线型图</p>
-				</li>
-				<li>
-					<b>&nbsp;</b>
-					<p>玫瑰图</p>
-				</li>
-			</ul>
+		<div>
+			<a href="https://echarts.apache.org/zh/index.html" target="_blank">
+				<p>ECharts官网</p>
+			</a>
+		</div>
+	</div>
+
+	<div id="main">
+		<ul id="echarts1" style="background-color: white;">
+			<li>
+				<b>&nbsp;</b>
+				<p>豆瓣TOP250</p>
+			</li>
+			<li>
+				<b>&nbsp;</b>
+				<p>柱形图</p>
+			</li>
+			<li>
+				<b>&nbsp;</b>
+				<p>条形图</p>
+			</li>
+			<li>
+				<b>&nbsp;</b>
+				<p>线型图</p>
+			</li>
+			<li>
+				<b>&nbsp;</b>
+				<p>玫瑰图</p>
+			</li>
+		</ul>
 
 
-			<div id="carousel">
-				<img id="left" src="img/left.png" />
-				<div id="gd">
+		<div id="carousel">
+			<img id="left" src="img/left.png" />
+			<div id="gd">
 
-				</div>
-				<img id="right" src="img/right.png" />
 			</div>
-
-			<div id="echarts2"></div>
-			<div id="echarts3"></div>
+			<img id="right" src="img/right.png" />
 		</div>
 
-		<div id="answer">
-			<div id="answer-top">
-				顶部
-			</div>
-			<div id="answer-bottom">
-				底部
-			</div>
+		<div id="echarts2"></div>
+		<div id="echarts3"></div>
+	</div>
+
+	<div id="answer">
+		<div id="answer-top">
+			顶部
 		</div>
-
-
-		<div id="bottom" style="background-color: white;height: 60px;display: flex;justify-content: center;align-items: center;">
-			<p>Copyright&nbsp;&copy;&nbsp;2021</p>
-			<p>&nbsp;&nbsp;32032</p>
-			<p>&nbsp;&nbsp;蒋祥</p>
-			<p>&nbsp;&nbsp;200303091</p>
+		<div id="answer-bottom">
+			底部
 		</div>
+	</div>
 
-		<script src="js/index.js"></script>
+	<div id="bottom"
+		style="background-color: white;height: 60px;display: flex;justify-content: center;align-items: center;">
+		<p>Copyright&nbsp;&copy;&nbsp;2024</p>
+		<p>&nbsp;&nbsp;毕业设计</p>
+		<p>&nbsp;&nbsp;刘紫薇</p>
+	</div>
 
-		<script>
-			json();
-		</script>
+	<script src="js/index.js"></script>
 
-
-	</body>
+	<script>
+		json();
+	</script>
+</body>
 
 </html>
